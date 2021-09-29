@@ -14,4 +14,7 @@
 &int_codec {
 	qcom,msm-mbhc-hphl-swh = <1>;
 	qcom,msm-mbhc-gnd-swh = <1>;
+	qcom,msm-hs-micbias-type = "external";
+	qcom,msm-micbias2-ext-cap;				
+
 };
